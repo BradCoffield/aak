@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2014 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="quote" unicode="&#xe804;" d="m146 680q146 0 184-146q38-140-40-302q-80-168-224-204q-32-8-66-8l0 70q112 0 182 108q54 86 26 146q-16 36-62 36q-60 0-103 44t-43 106t43 106t103 44z m420 0q146 0 184-146q38-140-40-302q-80-168-224-204q-32-8-66-8l0 70q112 0 182 108q54 86 26 146q-16 36-62 36q-60 0-103 44t-43 106t43 106t103 44z" horiz-adv-x="762" />
+<glyph glyph-name="mail" unicode="&#xe800;" d="m834 688q44 0 74-30t30-74l0-468q0-43-30-74t-74-30l-730 0q-44 0-74 30t-30 74l0 468q0 44 30 74t74 30l730 0z m-421-454l-82 72l-190-190l655 0l-190 190l-81-72q-24-20-56-20t-56 20z m-309-82l187 189l-187 163l0-352z m542 189l188-188l0 351z m188 243l-730 0l0-11l342-300q9-7 23-7t22 7l343 300l0 11z" horiz-adv-x="938" />
+<glyph glyph-name="pencil" unicode="&#xe801;" d="m795 731c50-46 44-118-4-165l-46-46s35 53-37 123c-64 64-124 37-124 37l49 48c43 45 120 45 162 3z m-89-250l-492-493l-210-51l-4 4l55 210l493 490c8 2 30 9 60 2l-523-522l-15-55l60-60l56 15l25 24l3 56l-40 40l479 479c7-7 7-7 15-15c71-70 38-124 38-124z" horiz-adv-x="830" />
+<glyph glyph-name="book" unicode="&#xe802;" d="m600 630l35 0l0-672l-502 0c-74 0-133 52-133 128l0 581c0 41 34 75 75 75l465 0l0-576l-407 0c-52 0-88-28-88-78l0-2c0-50 36-83 88-83l467 0l0 627z m-60-562l-402 0c-12 0-22 7-22 19c0 10 10 16 22 16l402 0l0-35z" horiz-adv-x="635" />
+<glyph glyph-name="group" unicode="&#xe803;" d="m0 106l0 134q0 26 18 32l171 80q-66 39-68 131q0 56 35 103q37 41 90 43q31 0 63-19q-49-125 23-237q-12-11-25-19l-114-55q-48-23-52-84l0-143l-114 0q-25 0-27 34z m193-59l0 168q0 27 22 37l152 70l57 28q-37 23-60 66t-22 94q0 76 46 130t110 54t109-54t45-130q0-106-78-158l61-30l146-70q24-10 24-37l0-168q-2-37-37-41l-541 0q-14 2-24 14t-10 27z m473 330q68 106 22 231q31 19 66 21q49 0 90-43q35-41 35-103q0-82-65-131l168-80q18-10 18-32l0-134q0-32-27-34l-118 0l0 143q0 57-50 84l-110 53q-15 8-29 25z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

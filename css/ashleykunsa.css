@@ -1,0 +1,557 @@
+                                                                .fancyhr {border: 0; height: 1px;  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0)), color-stop(rgba(0,0,0,0.75)), to(rgba(0,0,0,0))); background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); background-image: linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); }
+.plainhr {background: #000; height: 1px; border: 0;}
+.hindent2 {
+  margin-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+.hindent3 {margin-left:2.5em;text-indent: -.5em;}
+
+
+#index_body {background-image:url(../img/yarn1.png)}
+#research_body {background-image:url(../img/maybes/seamless-paper-patterns-8.jpg)}
+#creativewriting_body {background-image:url(../img/Whitman_1b.jpg)}
+#teaching_body {background-image:url(../img/cool-minty-green-tileable-grunge-patterns-part-2-22.jpg)}
+#about_body {background-image:url(../img/1959_1729cropped.jpg)}
+#contact_body {background-image:url(../img/n.jpg)}
+
+#teachingphilosophy p{
+    line-height: 1.75em;
+}
+
+#cvbody ul {line-height: 1.7em;}
+#cvbody ul li {color: #000;margin-left: 1.5em;}
+.hindent {text-indent: -1.5em; margin-left: 3em;}
+
+.paragraphlede {
+    font-size: 1.4375em;
+    color: #404C4A;
+    font-family: 'Lora', serif;}
+
+h2, h3, h4, h5, h6 {
+    color: #404C4A;
+         font-family: 'Lora', serif;
+   
+    }
+h1 {font-family: 'quicksandregular', Arial, sans-serif;}
+
+.sidebar .sidebarheading {background-color: #808080;
+color: #FFFFFF;
+font-family: 'quicksandregular', Arial, sans-serif;
+font-size: 1.4875em;
+margin-bottom: 1em;
+padding: 0.7em 0.2em;
+text-align: center;
+text-shadow: -1px 1px #000000;}
+
+.sidebar p {padding:0 1.1em;}
+
+p,a {
+    font-family: 'open_sansregular', "Open Sans", Helvetica, Arial, sans-serif;
+ 
+    
+}
+
+
+
+form {font-family: 'quicksandregular', Arial, sans-serif;}
+
+.creativewritingheadings {
+font-family: 'open_sansregular', "Open Sans", Helvetica, Arial, sans-serif;
+    
+}
+#teachingbutton {    color: #FFFFFF; background-color: #808080;    border: medium none;    cursor: pointer;    display: block;        margin: .7em auto;    padding: 0.5em 1.77778em 0.5em;    position: relative;    text-align: center;    text-decoration: none;    -webkit-transition: background-color 300ms ease-out 0s;    transition: background-color 300ms ease-out 0s;  border-radius:3px;
+    
+    font-family: 'open_sansregular', "Open Sans",Arial,sans-serif !important;
+    font-size: 0.88889em;
+    font-weight: normal !important;
+    line-height: normal;
+     }
+#teachingbutton a {color:#fff;}
+#teachingbutton a:hover {color:white;}
+#teachingbutton:hover, #teachingbutton:focus {background-color:#00cca1 ;color:#fff;}
+
+#submitbutton{ background-color: #808080;
+    width:100%;        
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-family: 'open_sansregular', "Open Sans",Arial,sans-serif !important;
+    font-size: 0.88889em;
+    font-weight: normal !important;
+    line-height: normal;
+    /*margin: 1em auto 0em;*/
+    /*padding: 0.94444em 1.77778em 0.88889em;*/
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: background-color 300ms ease-out 0s;
+    transition: background-color 300ms ease-out 0s;
+    max-width:63%;
+    border-radius:3px;}
+
+#submitbutton:hover, #submitbutton:focus { background-color:#00cca1 ;}
+
+#cvbutton {
+    background-color: #808080;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-family: 'open_sansregular', "Open Sans",Arial,sans-serif !important;
+    font-size: 0.88889em;
+    font-weight: normal !important;
+    line-height: normal;
+    margin: 2em auto;
+    padding: 0.94444em 1.77778em 0.88889em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: background-color 300ms ease-out 0s;
+    transition: background-color 300ms ease-out 0s;
+    max-width:75%;
+    border-radius:3px;
+}
+
+#cvbutton a {color:white;}
+
+#cvbutton:hover, #cvbutton:focus {
+    background-color:#00cca1 ;
+    color:white;
+}
+
+
+/*********************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+a:visited {color:#F21AFF;}
+a:hover{color:#00cca1;}
+
+header {
+    margin-bottom: 2em;
+    display: block;
+    margin: 1em auto;
+    padding: 1em;
+    background-color: #EEEEDD;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.pagetitle {
+    background-color: gray;
+    color: white;
+    text-shadow: -1px 1px #000;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.pagecontent {
+    border: solid 1px;
+    border-radius: 3px;
+    margin-bottom: 1em;
+    padding: 2em;
+    -webkit-box-shadow: 0px 0px 5px lightgray;
+    box-shadow: 0px 0px 5px lightgray;
+    -webkit-box-shadow: 0px 0px 5px lightgray;
+    background-color: #EEEEDD;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+
+    
+.ppadding p{
+padding: .1em .5em;
+}
+
+.sidebar {
+border:solid .1em gray;
+    border-radius:0px;
+    text-align:left;
+    
+}
+.sidebar p{
+    font-size: .9rem;
+    
+}
+
+
+.sidebar img {margin-bottom:1em;}
+
+
+.bodysection {
+background-color:#FCFBE3;
+}
+
+
+body {
+    color: #6b807b;
+    background-color: #FFFAFA;
+}
+
+
+
+.center {text-align:center;}
+
+
+
+
+
+/* HEADER ***********************************************************/
+
+
+#logo {
+    text-align:center;
+    font: 3em 'blackjackregular', Helvetica, sans-serif;
+        color: #6b807b;
+    margin-top:.2em;
+}
+ #toplogo {
+    text-align:center;
+    font: 1.2em 'blackjackregular', Helvetica, sans-serif;
+        color: #6b807b;
+    margin-top:.2em;
+}   
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0em 2em 1.5em 2em;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline-block;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    padding: .2em 0em;
+}
+
+
+.icons {
+    font-size: 1.2em;
+    color: #00ffc9;
+}
+
+.icons a {
+    color: #6b807b;
+    font-family: 'quicksandregular', Arial, sans-serif;
+}
+.icons a:visited {color:#00BF97;}
+
+
+/* end HEADER ***********************************************************/
+
+#homepagebiglogo {
+    margin-top: 1.5em;
+    font-size: 5em;
+    font: 5.3em 'blackjackregular', cursive;
+    color: #404C4A;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#tagline {
+    font-family: 'quicksanditalic', Arial, sans-serif;
+    
+     /*margin-top: -.2em;*/
+    text-align: center;
+    color:#404C4A;
+    font-size:1.8em;
+    font-weight:800;
+    padding-top: .5em;
+}
+
+
+
+
+/*header {margin-bottom:2em;}*/
+
+footer {
+color:#6B807B;
+text-align:center;
+font-size: .7em;
+    font-family: 'quicksandregular', Arial, sans-serif;
+}
+footer a {padding:.3em;}
+footer a:visited {color:#2BA6CB;}
+footer a:hover {padding:.3em;color:#fff;background-color:#00cca1;border-radius:3px;}
+
+
+.quicksandregular {font-family: 'quicksandregular', Arial, sans-serif;}
+
+.nav-text {
+color: #6b807b;
+    font-family: 'quicksandregular', Arial, sans-serif;
+    font-size:1em;
+}
+
+#nav-primary ul li a:visited {color:#00FFC9;}
+#nav-primary ul li a:hover {color:#00BF97;}
+#nav-primary ul li a span:hover {color: black;}
+#nav-primary ul li a {padding: 0 .3em;}
+
+#nav-primary {margin: 1em 0;}
+
+.icon-book, .icon-pencil, .icon-group, .icon-quote, .icon-mail {font-size:1.3em; color:#00ffc9}
+
+
+#cr_img img{max-height:8em; margin:0 auto; display:block;}
+
+#cr_img {margin-top: 3em;}
+
+#cr_img #img_aroho {padding-top: 20%;}
+
+#creative_writing_content {
+
+}
+        
+#lareviewdescription {
+    line-height:1.3em;
+    font-size:1.1em;}
+    
+#pedogogyblockssection ul li {
+    text-align: center;
+}
+
+#teachingtop {
+    font-family: 'quicksandregular', Arial, sans-serif;
+}
+
+
+
+#teachingsidebar ul li {
+    text-align:center;
+    list-style:none;
+    margin-bottom:1em;
+}
+  
+
+
+p { color:black;}
+        
+/*hr {
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+} */
+        
+    
+#teachingsidebar {
+border:solid .3em #ff4200;
+    border-radius:3px;
+}
+
+#teachingsidebar div{
+text-align:center;
+    background-color:#ff4200;
+    font-family: 'quicksandregular', Arial, sans-serif;
+    color:white;
+ font-size: 1.4em;
+    padding: 1em .2em;
+    margin-bottom: 1em;
+    
+    }
+
+#teachingsidebar h4 {
+font-size:1.1em;
+    font-weight:bold;
+}
+#teachingsidebar ul {
+    
+}
+
+
+
+#coursestaughtpdfbutton {color:fff; background-color: #808080;    border: medium none;    cursor: pointer;    display: block;      padding: 0.5em 1.77778em 0.5em;    position: relative;    text-align: center;    text-decoration: none;    -webkit-transition: background-color 300ms ease-out 0s;    transition: background-color 300ms ease-out 0s;        border-radius:3px;
+    
+    font-family: 'open_sansregular', "Open Sans",Arial,sans-serif !important;
+    font-size: 0.88889em;
+    font-weight: normal !important;
+    line-height: normal;
+    margin: 0 auto;
+    
+}
+#coursestaughtpdfbutton a {color:#fff;}
+#coursestaughtpdfbutton a:hover {color:white;}
+#coursestaughtpdfbutton a:visited {color:#fff;}
+#coursestaughtpdfbutton:hover, #coursestaughtpdfbutton:focus {background-color:#00cca1 ;color:#fff;}
+#cvheader {
+  color: #000000;
+  font-family: 'open_sansregular',"Open Sans",Helvetica,Arial,sans-serif;
+  font-size: 1.1em;
+  line-height: 1.1em;
+  text-align: center;
+    margin-top: 1.5em;
+}
+
+.cvtitles {
+    color: #000;
+    margin-bottom: -.5em;
+}
+
+.cvsubtitles {
+    margin-bottom: 10px;
+}
+
+/*FONT FACE*/
+@font-face {
+    font-family: 'blackjackregular';
+    src: url(fonts/black_jack-webfont.eot);
+    src: url(fonts/black_jack-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/black_jack-webfont.woff) format('woff'),
+         url(fonts/black_jack-webfont.ttf) format('truetype'),
+         url(fonts/black_jack-webfont.svg#blackjackregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quicksandregular';
+    src: url(fonts/quicksand-regular-webfont.eot);
+    src: url(fonts/quicksand-regular-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/quicksand-regular-webfont.woff) format('woff'),
+         url(fonts/quicksand-regular-webfont.ttf) format('truetype'),
+         url(fonts/quicksand-regular-webfont.svg#quicksandregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quicksanditalic';
+    src: url(fonts/quicksand-italic-webfont.eot);
+    src: url(fonts/quicksand-italic-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/quicksand-italic-webfont.woff) format('woff'),
+         url(fonts/quicksand-italic-webfont.ttf) format('truetype'),
+         url(fonts/quicksand-italic-webfont.svg#quicksanditalic) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansbold_italic';
+    src: url(fonts/OpenSans-BoldItalic-webfont.eot);
+    src: url(fonts/OpenSans-BoldItalic-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/OpenSans-BoldItalic-webfont.woff) format('woff'),
+         url(fonts/OpenSans-BoldItalic-webfont.ttf) format('truetype'),
+         url(fonts/OpenSans-BoldItalic-webfont.svg#open_sansbold_italic) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url(fonts/OpenSans-Bold-webfont.eot);
+    src: url(fonts/OpenSans-Bold-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/OpenSans-Bold-webfont.woff) format('woff'),
+         url(fonts/OpenSans-Bold-webfont.ttf) format('truetype'),
+         url(fonts/OpenSans-Bold-webfont.svg#open_sansbold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url(fonts/OpenSans-Italic-webfont.eot);
+    src: url(fonts/OpenSans-Italic-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/OpenSans-Italic-webfont.woff) format('woff'),
+         url(fonts/OpenSans-Italic-webfont.ttf) format('truetype'),
+         url(fonts/OpenSans-Italic-webfont.svg#open_sansitalic) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url(fonts/OpenSans-Regular-webfont.eot);
+    src: url(fonts/OpenSans-Regular-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/OpenSans-Regular-webfont.woff) format('woff'),
+         url(fonts/OpenSans-Regular-webfont.ttf) format('truetype'),
+         url(fonts/OpenSans-Regular-webfont.svg#open_sansregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*END FONT FACE*/
+/*FONTELLOOOOOOOOOOOOOOOOOOOO*/
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?75089757');
+  src: url('../font/fontello.eot?75089757#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?75089757') format('woff'),
+       url('../font/fontello.ttf?75089757') format('truetype'),
+       url('../font/fontello.svg?75089757#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?75089757#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-quote:before { content: '\e804'; } /* '' */
+.icon-mail:before { content: '\e800'; } /* '' */
+.icon-pencil:before { content: '\e801'; } /* '' */
+.icon-book:before { content: '\e802'; } /* '' */
+.icon-group:before { content: '\e803'; } /* '' */
+
+
+
+
+
+.cvbodysection ul li {
+     font-family: 'open_sansregular', "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+                            
+                            
