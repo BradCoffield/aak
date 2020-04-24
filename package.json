@@ -4,7 +4,8 @@
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp watch & eleventy --serve"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,25 @@
   },
   "homepage": "https://github.com/BradCoffield/aak#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
-  }
+    "@11ty/eleventy": "^0.10.0",
+    "autoprefixer": "^9.7.6",
+    "cssnano": "^4.1.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-watch": "^5.0.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "sass": "^1.26.5"
+  },
+  "sass": "sass --style=compressed assets/css/main.scss src/assets/css/main.css",
+  "watch:eleventy": "eleventy --serve",
+  "watch:sass": "npm run sass --watch",
+  "start": "npm-run-all sass --parallel watch:*",
+  "build": "npm run sass && eleventy"
 }
