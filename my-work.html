@@ -1,8 +1,6 @@
 ---
-layout: generic
-title: Portfolio
+title: My Work
 ---
-
 <!DOCTYPE html>
 <!--
 	Standout by Pixelarity
@@ -11,7 +9,7 @@ title: Portfolio
 -->
 <html>
   <head>
-    <title>Untitled</title>
+    <title>{{title}}</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -51,7 +49,7 @@ title: Portfolio
             <h1>My Work</h1>
             <p>
               If you have any questions about my work, or would like to
-              collaborate, <a href="#">get in touch.</a>
+              collaborate, <a href="#">get in touch.</a> 
             </p>
           </header>
           <ul class="tabs">
@@ -220,49 +218,7 @@ title: Portfolio
         </div>
       </section>
 
-      <!-- Footer -->
-      <section id="footer" class="wrapper">
-        <div class="inner">
-          <div class="split">
-            <div class="content">
-              <header>
-                <h2>About</h2>
-              </header>
-              <p>
-                Lorem ipsum dolor amet et donec convallis placerat varius.
-                Phasellus sagittis, urna blanSapien lectus lorem tempus ut purus
-                consequat. Sed veroeros et nisl urna lacinia lorem. Aenean at
-                adipiscing lorem. Nunc risus augue, ullamcorper eget posuere.
-              </p>
-              <ul class="actions">
-                <li><a href="#" class="button next">Full Story</a></li>
-              </ul>
-            </div>
-            <ul class="contact-icons">
-              <li>
-                <a href="#" class="icon alt fa-twitter"
-                  ><span class="label">twitter.com/untitled</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon alt fa-facebook"
-                  ><span class="label">facebook.com/untitled</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon alt fa-instagram"
-                  ><span class="label">instagram.com/untitled</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon alt fa-envelope"
-                  ><span class="label">contact@untitled.tld</span></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+    {%include about-footer.html%}
 
       <!-- Copyright -->
       <section class="wrapper style2 copyright">

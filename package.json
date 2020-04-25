@@ -4,8 +4,9 @@
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "gulp & eleventy --serve"
+    "build": "npx @11ty/eleventy",
+  "serve": "npx @11ty/eleventy --serve",
+  "debug": "DEBUG=* npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
