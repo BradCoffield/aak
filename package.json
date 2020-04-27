@@ -4,9 +4,14 @@
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-  "serve": "npx @11ty/eleventy --serve",
-  "debug": "DEBUG=* npx @11ty/eleventy"
+    
+    "build": "npm run sass && eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=* npx @11ty/eleventy",
+    "sass": "sass --style=compressed assets/css/main.scss assets/css/main.css",
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "npm run sass -- --watch",
+    "start": "npm-run-all sass --parallel watch:*"
   },
   "repository": {
     "type": "git",
@@ -36,7 +41,6 @@
   "dependencies": {
     "sass": "^1.26.5"
   },
-  "sass": "sass --style=compressed assets/css/main.scss src/assets/css/main.css",
   "watch:eleventy": "eleventy --serve",
   "watch:sass": "npm run sass --watch",
   "start": "npm-run-all sass --parallel watch:*",

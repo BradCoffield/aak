@@ -1,11 +1,11 @@
-@import "_sass/libs/vars";
-@import "_sass/libs/_functions";
-@import "_sass/libs/_mixins";
-@import "_sass/libs/_vendor";
-@import "_sass/libs/_breakpoints";
-@import "_sass/libs/_html-grid";
-@import "_sass/libs/_fixed-grid";
-@import "_sass/_mine";
+@import "../../_sass/libs/vars.scss";
+@import "../../_sass/libs/_functions";
+@import "../../_sass/libs/_mixins";
+@import "../../_sass/libs/_vendor";
+@import "../../_sass/libs/_breakpoints";
+@import "../../_sass/libs/_html-grid";
+@import "../../_sass/libs/_fixed-grid";
+@import "../../_sass/_mine";
 @import "font-awesome.min.css";
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Oswald:600");
 
@@ -17,34 +17,25 @@
 
 // Breakpoints.
 
-@include breakpoints(
-  (
-    xlarge: (
-      1281px,
+@include breakpoints((xlarge: (1281px,
       1680px,
     ),
-    large: (
-      981px,
+    large: (981px,
       1280px,
     ),
-    medium: (
-      737px,
+    medium: (737px,
       980px,
     ),
-    small: (
-      481px,
+    small: (481px,
       736px,
     ),
-    xsmall: (
-      361px,
+    xsmall: (361px,
       480px,
     ),
-    xxsmall: (
-      null,
+    xxsmall: (null,
       360px,
     ),
-  )
-);
+  ));
 
 // Mixins.
 
@@ -74,33 +65,140 @@
 
 // Base.
 
-@import "_sass/base/_reset";
-@import "_sass/base/_page";
-@import "_sass/base/_typography";
+@import "../../_sass/base/_reset";
+@import "../../_sass/base/_page";
+@import "../../_sass/base/_typography";
 
 // Component.
 
-@import "_sass/components/_row";
-@import "_sass/components/_box";
-@import "_sass/components/_button";
-@import "_sass/components/_form";
-@import "_sass/components/_icon";
-@import "_sass/components/_image";
-@import "_sass/components/_list";
-@import "_sass/components/_actions";
-@import "_sass/components/_tabs";
-@import "_sass/components/_icons";
-@import "_sass/components/_contact-icons";
-@import "_sass/components/_section";
-@import "_sass/components/_table";
-@import "_sass/components/_wrapper";
-@import "_sass/components/_gallery";
-@import "_sass/components/_split";
+@import "../../_sass/components/_row";
+@import "../../_sass/components/_box";
+@import "../../_sass/components/_button";
+@import "../../_sass/components/_form";
+@import "../../_sass/components/_icon";
+@import "../../_sass/components/_image";
+@import "../../_sass/components/_list";
+@import "../../_sass/components/_actions";
+@import "../../_sass/components/_tabs";
+@import "../../_sass/components/_icons";
+@import "../../_sass/components/_contact-icons";
+@import "../../_sass/components/_section";
+@import "../../_sass/components/_table";
+@import "../../_sass/components/_wrapper";
+@import "../../_sass/components/_gallery";
+@import "../../_sass/components/_split";
 
 // Layout.
 
-@import "_sass/layout/_header";
-@import "_sass/layout/_menu";
-@import "_sass/layout/_banner";
-@import "_sass/layout/_main";
-@import "_sass/layout/_footer";
+@import "../../_sass/layout/_header";
+@import "../../_sass/layout/_menu";
+@import "../../_sass/layout/_banner";
+@import "../../_sass/layout/_main";
+@import "../../_sass/layout/_footer";
+
+// MY CUSTOM
+.mb0 {
+  margin-bottom: 0px !important;
+}
+
+.mb4 {
+  margin-bottom: 4rem !important
+}
+
+.publication {
+  font-size: 18px;
+  margin-bottom: 12px !important;
+}
+
+.dimmed {
+  position: relative;
+}
+
+.dimmed:after {
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.dimmed .text-overlay {
+  z-index: 100;
+  display: block;
+  position: absolute;
+
+  top: 25%;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 24px;
+  /* font-weight: bold; */
+  font-family: "Lato", Helvetica, sans-serif;
+  /* padding-left:10px; */
+  /* padding-right:10px; */
+  padding: 5px 10px;
+}
+
+.hindent {
+  text-indent: -1.5em;
+  margin-left: 3em;
+}
+
+p {
+  font-size: 18px
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-size-big {
+  margin: 0px .5rem;
+  margin-right:4.5rem;
+  max-width: 60%;
+  @include breakpoint('<=xlarge') {
+    max-width: 60%;
+    
+  }
+
+  @include breakpoint('<=large') {
+    max-width: 60%;
+    
+  }
+
+  @include breakpoint('<=medium') {
+    max-width: 100%;
+  }
+
+  // @include breakpoint('<=xsmall') {
+  //   font-size: 12px;
+  // }
+
+  // @include breakpoint('<=xxsmall') {
+  //   font-size: 1px;
+  // }
+}
+
+.flex-size-small {
+  margin: 0px .5rem;
+  max-width: 30%;
+  @include breakpoint('<=xlarge') {
+    max-width: 30%
+  }
+
+  @include breakpoint('<=large') {
+    max-width: 28%; 
+  }
+
+  @include breakpoint('<=medium') {
+    max-width: 100%;
+  }
+}
+
+.bold {font-weight: bold!important;}
