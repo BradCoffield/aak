@@ -160,16 +160,17 @@ p {
 
 .flex-size-big {
   margin: 0px .5rem;
-  margin-right:4.5rem;
+  margin-right: 4.5rem;
   max-width: 60%;
+
   @include breakpoint('<=xlarge') {
     max-width: 60%;
-    
+
   }
 
   @include breakpoint('<=large') {
     max-width: 60%;
-    
+
   }
 
   @include breakpoint('<=medium') {
@@ -188,12 +189,13 @@ p {
 .flex-size-small {
   margin: 0px .5rem;
   max-width: 30%;
+
   @include breakpoint('<=xlarge') {
     max-width: 30%
   }
 
   @include breakpoint('<=large') {
-    max-width: 28%; 
+    max-width: 28%;
   }
 
   @include breakpoint('<=medium') {
@@ -201,4 +203,18 @@ p {
   }
 }
 
-.bold {font-weight: bold!important;}
+.bold {
+  font-weight: bold !important;
+}
+
+.fs-16 {
+  font-size: 16px!important;
+}
+.fs-12{
+  font-size: 12px!important;
+}
+.fas{
+  font-size:11px;
+  color: lightgray;
+  margin: 0 7px;
+}

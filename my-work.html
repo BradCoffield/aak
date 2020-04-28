@@ -1,42 +1,16 @@
 ---
 title: My Work
 ---
+
 <!DOCTYPE html>
- 
+
 <html>
-  <head>
-    <title>{{title}}</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="/assets/css/main.css" />
-  </head>
+  {%include head.html%}
   <body class="is-preload">
     <!-- Page wrapper -->
     <div id="page-wrapper">
       <!-- Header -->
-      <header id="header">
-        <span class="logo"
-          ><a href="index.html">Ashley Kunsa <span></span></a
-        ></span>
-        <a href="#menu"><span>Menu</span></a>
-      </header>
-
-      <!-- Nav -->
-      <nav id="menu">
-        <div class="inner">
-          <h2>Menu</h2>
-          <ul class="links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="generic.html">Generic</a></li>
-            <li><a href="elements.html">Elements</a></li>
-          </ul>
-          <a class="close"><span>Close</span></a>
-        </div>
-      </nav>
+      {%include header_and_navSUBPAGES.html%}
 
       <!-- Main -->
       <section id="main" class="wrapper style2">
@@ -45,7 +19,7 @@ title: My Work
             <h1>My Work</h1>
             <p>
               If you have any questions about my work, or would like to
-              collaborate, <a href="#">get in touch.</a> 
+              collaborate, <a href="#">get in touch.</a>
             </p>
           </header>
           <ul class="tabs">
@@ -53,92 +27,87 @@ title: My Work
               <h3>Home</h3>
               <div class="gallery">
                 <a href="/creative-writing/fiction-publications/" class="dimmed"
-                  ><img
-                    src="/images/annie-spratt-J1Pr3HBWkAQ-unsplash.jpg"
-                    alt=""
-                  /><span class="text-overlay"
-                    >Fiction Publications-annie-spratt</span
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Fiction Publications</span
+                  ></a
+                >
+
+                <a href="/teaching/teaching-overview/" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Teaching Overview</span
+                  ></a
+                >
+
+                <a
+                  href="http://www.tandfonline.com/doi/abs/10.1080/00111619.2011.574747#.Uu2v2D2wJOR"
+                  target="_blank"
+                  class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay fs-16"
+                    >“History, Hair, and Reimagining Racial Categories in Junot
+                    Díaz’s The Brief Wondrous Life of Oscar Wao.”
+                    <em>Critique: Studies in Contemporary Fiction</em
+                    ><i class="fas fa-external-link-alt"></i></span
+                ></a>
+
+                <a href="/teaching/teaching-statement/" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Teaching Statement</span
+                  ></a
+                >
+
+                <a href="/creative-writing/poetry-publications/" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Poetry Publications</span
+                  ></a
+                >
+
+                <a
+                  href="/creative-writing/nonfiction-publications/"
+                  class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Nonfiction Publications</span
                   ></a
                 >
 
                 <a href="#" class="dimmed"
-                  ><img
-                    src="/images/unsplash/adam-birkett-lkNa1eg2d18-unsplash.jpg"
-                    alt=""
-                  /><span class="text-overlay"
-                    >Teaching Overview adam-birkett</span
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Full CV
+                    <span class="fs-12" style="display: inline;">(pdf)</span>
+                  </span></a
+                >
+
+                <a href="/editing/academic-editing/" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Academic Editing</span
                   ></a
                 >
 
-                <a href="#" class="dimmed"
-                  ><img
-                    src="/images/unsplash/alex-brinkman-AlxtYykw6XM-unsplash.jpg"
-                    alt=""
-                  /><span class="text-overlay"
-                    >Junot Diaz article-alex-brinkman</span
+                <a href="/editing/developmental-editing/" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Developmental Editing</span
                   ></a
                 >
 
-                <a href="images/gallery/fulls/pic05.jpg" class="dimmed"
-                  ><img
-                    src="/images/logan-armstrong-Pkzo1PM2d70-unsplash.jpg"
-                    alt=""
-                  /><span class="text-overlay"
-                    >Teaching Statement logan-armstrong</span
-                  ></a
-                >
-
-                <a href="#" class="dimmed"
-                  ><img
-                    src="/images/unsplash/ashkan-forouzani-omgj83afz-o-unsplash.jpg"
-                    alt=""
-                  /><span class="text-overlay"
-                    >Poetry Publications ashkan-forouzani</span
-                  ></a
-                >
-
-                <a href="#" class="dimmed"
-                  ><img
-                    src="/images/unsplash/charlotte-coneybeer-Q5RTxSWooZo-unsplash.jpg"
-                    alt=""
-                  /><span class="text-overlay"
-                    >Nonfiction Publications charlotte-coneybeer-</span
-                  ></a
-                >
-
-                <a href="#" class="dimmed"
-                  ><img
-                    src="/images/unsplash/brandon-nelson-2smDZopBMso-unsplash.jpg"
-                    alt=""
-                  /><span class="text-overlay">Full CV brandon-nelson-</span></a
-                >
-
-                <a href="#" class="dimmed"
-                  ><img
-                    src="/images/unsplash/erol-ahmed-NwV2nxIqOIU-unsplash.jpg"
-                    alt=""
-                  /><span class="text-overlay"
-                    >Academic Editing erol-ahmed</span
-                  ></a
-                >
-
-                <a href="#" class="dimmed"
-                  ><img
-                    src="/images/unsplash/filip-mroz-oVMjj1ub5kw-unsplash.jpg"
-                    alt=""
-                  /><span class="text-overlay"
-                    >Developmental Editing filip-mroz-s</span
-                  ></a
-                >
-
-                <a href="#" class="dimmed"
-                  ><img
-                    src="/images/unsplash/joshua-fuller-F5Dxy9i8bxc-unsplash.jpg"
-                    alt=""
-                  /><span class="text-overlay"
-                    >McCormac article joshua-fuller-</span
-                  ></a
-                >
+                <a
+                  href="http://muse.jhu.edu/journals/journal_of_modern_literature/summary/v033/33.1.kunsa.html"
+                  target="_blank"
+                  class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay fs-16"
+                    >“‘Maps of the World in Its Becoming’: Post-Apocalyptic
+                    Naming in Cormac McCarthy’s The Road.”
+                    <em>Journal of Modern Literature</em
+                    ><i class="fas fa-external-link-alt"></i></span
+                ></a>
 
                 <!-- <a href="#" class="dimmed"
                   ><img
@@ -151,76 +120,186 @@ title: My Work
             <li>
               <h3>Creative Writing</h3>
               <div class="gallery">
-                <a href="images/gallery/fulls/pic08.jpg"
-                  ><img src="/images/gallery/thumbs/pic06.jpg" alt=""
-                /></a>
-                <a href="images/gallery/fulls/pic04.jpg"
-                  ><img src="/images/gallery/thumbs/pic02.jpg" alt=""
-                /></a>
-                <a href="images/gallery/fulls/pic06.jpg"
-                  ><img src="/images/gallery/thumbs/pic04.jpg" alt=""
-                /></a>
-                <a href="images/gallery/fulls/pic10.jpg"
-                  ><img src="/images/gallery/thumbs/pic08.jpg" alt=""
-                /></a>
+                <a href="/creative-writing/fiction-publications/" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Fiction Publications</span
+                  ></a
+                >
+
+                <a href="/creative-writing/poetry-publications/" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Poetry Publications</span
+                  ></a
+                >
+                <a
+                  href="/creative-writing/nonfiction-publications/"
+                  class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Nonfiction Publications</span
+                  ></a
+                >
+
+                <a href="/creative-writing/awards-and-honors/" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Awards &amp; Honors</span
+                  ></a
+                >
+
+                <a href="#" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Link to fiction piece</span
+                  ></a
+                >
+
+                <a href="#" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Link to poetry piece</span
+                  ></a
+                >
+                <a href="#" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Link to nonfiction piece</span
+                  ></a
+                >
+                <a href="#" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Full CV
+                    <span class="fs-12" style="display: inline;">(pdf)</span>
+                  </span></a
+                >
               </div>
             </li>
             <li>
               <h3>Scholarship</h3>
               <div class="gallery">
-                <a href="images/gallery/fulls/pic05.jpg"
-                  ><img src="/images/gallery/thumbs/pic05.jpg" alt=""
-                /></a>
-                <a href="images/gallery/fulls/pic07.jpg"
-                  ><img src="/images/gallery/thumbs/pic07.jpg" alt=""
-                /></a>
-                <a href="images/gallery/fulls/pic10.jpg"
-                  ><img src="/images/gallery/thumbs/pic10.jpg" alt=""
-                /></a>
+                <a
+                  href="http://www.tandfonline.com/doi/abs/10.1080/00111619.2011.574747#.Uu2v2D2wJOR"
+                  target="_blank"
+                  class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay fs-16"
+                    >“History, Hair, and Reimagining Racial Categories in Junot
+                    Díaz’s The Brief Wondrous Life of Oscar Wao.”
+                    <em>Critique: Studies in Contemporary Fiction</em
+                    ><i class="fas fa-external-link-alt"></i></span
+                ></a>
+                <a
+                  href="http://muse.jhu.edu/journals/journal_of_modern_literature/summary/v033/33.1.kunsa.html"
+                  target="_blank"
+                  class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay fs-16"
+                    >“‘Maps of the World in Its Becoming’: Post-Apocalyptic
+                    Naming in Cormac McCarthy’s The Road.”
+                    <em>Journal of Modern Literature</em
+                    ><i class="fas fa-external-link-alt"></i></span
+                ></a>
+                <a href="/scholarship/scholarly-presentations/" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Scholarly Presentations</span
+                  ></a
+                ><a href="/scholarship/dissertation/" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Dissertation</span
+                  ></a
+                >
+                <a href="#" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Full CV
+                    <span class="fs-12" style="display: inline;">(pdf)</span>
+                  </span></a
+                >
               </div>
             </li>
             <li>
+              
               <h3>Teaching</h3>
               <div class="gallery">
-                <a href="images/gallery/fulls/pic05.jpg"
-                  ><img src="/images/gallery/thumbs/pic09.jpg" alt=""
-                /></a>
-                <a href="images/gallery/fulls/pic06.jpg"
-                  ><img src="/images/gallery/thumbs/pic01.jpg" alt=""
-                /></a>
-                <a href="images/gallery/fulls/pic08.jpg"
-                  ><img src="/images/gallery/thumbs/pic03.jpg" alt=""
-                /></a>
-                <a href="images/gallery/fulls/pic11.jpg"
-                  ><img src="/images/gallery/thumbs/pic11.jpg" alt=""
-                /></a>
+                
+                <a href="/teaching/teaching-overview/" class="dimmed"
+                ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                  class="text-overlay"
+                  >Teaching Overview
+                  <span class="fs-12" style="display: inline;">(pdf)</span>
+                </span></a
+              >
+                
+                <a href="/teaching/courses-taught/" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Courses Taught
+                    <span class="fs-12" style="display: inline;">(pdf)</span>
+                  </span></a
+                >
+               
+                <a href="/teaching/teaching-statement/" class="dimmed"
+                  ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                    class="text-overlay"
+                    >Teaching Statement
+                    <span class="fs-12" style="display: inline;">(pdf)</span>
+                  </span></a
+                >
+                <a href="#" class="dimmed"
+                ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                  class="text-overlay"
+                  >Full CV
+                  <span class="fs-12" style="display: inline;">(pdf)</span>
+                </span></a
+              >
               </div>
             </li>
-            <li>
+            <li><!-- -------------------------------------------------------------------------------------------------------------------------------------- -->
               <h3>Editing</h3>
               <div class="gallery">
-                <a href="images/gallery/fulls/pic05.jpg"
-                  ><img src="/images/gallery/thumbs/pic05.jpg" alt=""
-                /></a>
-                <a href="images/gallery/fulls/pic07.jpg"
-                  ><img src="/images/gallery/thumbs/pic07.jpg" alt=""
-                /></a>
-                <a href="images/gallery/fulls/pic10.jpg"
-                  ><img src="/images/gallery/thumbs/pic10.jpg" alt=""
-                /></a>
+                 
+                <a href="/editing/academic-editing/" class="dimmed"
+                ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                  class="text-overlay"
+                  >Academic Editing</span
+                ></a
+              >
+
+              <a href="/editing/developmental-editing/" class="dimmed"
+                ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                  class="text-overlay"
+                  >Developmental Editing</span
+                ></a
+              >
+              <a href="/editing/get-a-quote/" class="dimmed"
+                ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                  class="text-overlay"
+                  >Get a Quote</span
+                ></a
+              >
+
+              <a href="/editing/past-projects/" class="dimmed"
+                ><img src="/images/slides/zslide01.jpg" alt="" /><span
+                  class="text-overlay"
+                  >Past Projects</span
+                ></a
+              >
               </div>
             </li>
           </ul>
         </div>
       </section>
 
-    {%include about-footer.html%}
+      {%include about-footer.html%}
 
       <!-- Copyright -->
       <section class="wrapper style2 copyright">
-        <div class="inner">
-          &copy; Untitled. All rights reserved. Lorem ipsum dolor sit amet.
-        </div>
+        <div class="inner"></div>
       </section>
     </div>
 
